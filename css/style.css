@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	/* align-items: center; */
+}
+.flex{
+	
+display: flex;
+	
+flex: 0 0 auto;
+	
+flex-wrap: wrap;
+	
+align-items: center;
+}
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+li{
+	list-style: none;
+	/* padding-left: 50px; */
+	font size: 10px;
+	margin-left: 5;
+}
+a{
+	text-decoration: none;
+	color: #a09e9e;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+span{
+	display: block;
+	text-transform: uppercase;
+	color: #a09e9e;
+	padding: 20px 0;
+	font-size: 14px;
+}
+h1{
+	
+color: #5f5e5e;
+	
+text-transform: capitalize;
+}
+p{
+	
+padding: 20px 0;
+	
+color: #5f5e5e;
+	
+line-height: 1.4;
+}
+
+/* comon part ends */
+
+header{
+	
+width: 100%;
+	
+padding: 20px 0;
+}
+
+}
+nav ul{
+	justify-content: flex-end;
+}
+nav ul li{
+
+margin-left: 30px;
+}
+nav ul li a{
+	
+padding: 10px 15px;
+	
+transition: all 0.3s;
+}
+nav ul li a:hover{
+	
+background: black;
+	
+color: white;
+}
+.logo{
+	width: 20%;
+}
+nav{
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+nav a{
+	/* padding-top: 30px; */
+	text-transform: uppercase;
+	/* padding: 0 15px; */
+}
+nav a:hover{
+
+}
+.banner-img img{
+	width: 100%;
+}
+.blog1{
+
+padding: 70px;
+}
+
+
+/* blog2 starts */
+
+.blog2-container{
+	display: flex;
+	
+}
+.blog2 p{
+	
+
+}
+.blog2 img{
+	width: 100%;
+}
+.col1-1{
+	width: 50%;
+	padding: 50px;
+}
+.col1-2{
+	width: 50%;
+	padding: 50px;
+}
+.col2-1{
+	width: 50%;
+	padding: 50px;
+}
+.col2-2{
+	width: 50%;
+	padding: 50px;
+}
+.col3-1{
+	width: 50%;
+	padding: 50px;
+}
+.col3-2{
+	width: 50%;
+	padding: 50px;
+}
+/* blog2 ends */
+
+footer{
+	background-color: #d8d5d5;
+}
+footer .container{
+
+display: flex;
+
+flex-wrap: wrap;
+
+/*padding: 15px 0;*/
+
+justify-content: space-between;
+}
+.others{
+	
+}
+.social-links{
+}
+	
+footer span{
+
+	color: #333;
+	font-size: 11px;
+}
+footer ul{
+	
+}
+footer ul li a{
+	
+color: #333;
+	
+font-size: 11px;
+	
+text-transform: uppercase;
+	
+margin: 10px;
+}
+footer ul li{
+	
+font-size: 10px;
+	
+font-weight: 600;
+}
